@@ -34,7 +34,7 @@ class CarWashStation:
         cost_wash = round(
             car.comfort_class
             * (self.clean_power - car.clean_mark)
-            * self.average_rating / self.distance_from_city_center, 2
+            * self.average_rating / self.distance_from_city_center, 1
         )
         return cost_wash
 
